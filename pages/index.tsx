@@ -22,7 +22,7 @@ export default function NotionDomainPage(props) {
   return
   
   <body>
-    <PageLayout noGUtter>
+    <PageLayout noGutter>
     <NotionPage {...props} />
     </PageLayout>
   </body>
