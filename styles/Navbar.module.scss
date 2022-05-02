@@ -1,0 +1,26 @@
+$gutter: 48px;
+
+.navbar {
+    width: 100%;
+    height: 72px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    nav {
+        a {
+            margin-right: $gutter;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+    }
+}
+
+.homeicon {
+    height: 50px;
+    margin-left: $gutter;
+    &:hover {
+        cursor: pointer;
+    }
+}
