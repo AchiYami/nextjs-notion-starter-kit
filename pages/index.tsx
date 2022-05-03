@@ -3,6 +3,7 @@ import { domain } from 'lib/config'
 import { resolveNotionPage } from 'lib/resolve-notion-page'
 import { NotionPage } from 'components'
 import PageLayout  from 'components/PageLayout'
+import DirectiveSplash from 'components/DirectiveSplash'
 
 export const getStaticProps = async () => {
   try {
@@ -19,11 +20,9 @@ export const getStaticProps = async () => {
 }
 
 export default function NotionDomainPage(props) {
-  return
-  
-  <body>
+  return <body>
     <PageLayout noGutter>
-    <NotionPage {...props} />
+      <DirectiveSplash />
     </PageLayout>
   </body>
 }

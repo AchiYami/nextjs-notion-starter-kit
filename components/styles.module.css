@@ -36,6 +36,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: black;
 }
 
 .errorImage {
@@ -204,4 +205,24 @@
 
 .hidden {
   visibility: hidden;
+}
+
+
+.body{
+  background-color: black;
+}
+
+.dark-mode{
+  --bg-color: #000;
+  background-color: #000;
+}
+
+.notion-block-8240d2cc6b6e4868b0a16daa7328c313
+{
+  background-color: #000;
+}
+
+.notion.notion-app.dark-mode.notion-block-8240d2cc6b6e4868b0a16daa7328c313
+{
+  background-color: #000;
 }

@@ -11,6 +11,7 @@ body,
 html {
   padding: 0;
   margin: 0;
+  background-color: black;
 }
 
 body {
@@ -19,6 +20,7 @@ body {
     'Droid Sans', 'Helvetica Neue', 'Noto Sans', sans-serif;
   font-family: var(--notion-font);
   overflow-x: hidden;
+  background-color: black;
 }
 
 .static-tweet blockquote {
@@ -32,4 +34,39 @@ body {
 .static-tweet-emoji {
   height: 1.2em !important;
   width: 1.2em !important;
+}
+
+.notion-block-8240d2cc6b6e4868b0a16daa7328c313
+{
+  background-color: #000;
+}
+
+.notion notion-app dark-mode notion-block-8240d2cc6b6e4868b0a16daa7328c313
+{
+  background-color: #000;
+}
+
+
+div#__next
+{
+ background-color: #000;
+}
+
+body.dark-mode
+{
+  background-color: #000;
+}
+
+.notion-frame
+{
+  background-color: #000;
+}
+
+.notion-header
+{
+  background: #000;
+}
+
+.notion-page-cover-wrapper{
+width: auto;
 }

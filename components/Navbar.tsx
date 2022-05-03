@@ -18,7 +18,9 @@ const Navbar: FunctionComponent = () => (
             />
         </Link>
         <nav>
-         <Link key="a" href="http://blog.starpointstudios.co.uk">Blog</Link>
+        <Link key="a" href="/games">Games</Link>
+         <Link key="a" href="/blog">Blog</Link>
+         <Link key="a" href="/about">About</Link>
         </nav>
     </div>
 );

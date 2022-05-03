@@ -44,7 +44,11 @@ export default siteConfig({
   //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
-  pageUrlOverrides: null,
+  pageUrlOverrides: {
+      '/blog': '8240d2cc6b6e4868b0a16daa7328c313',
+      '/games': 'b56a158d70c64633805f89830eef579f',
+      '/about': '4c51a1af42d342dc836b3b7d0bba5354'
+  },
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
