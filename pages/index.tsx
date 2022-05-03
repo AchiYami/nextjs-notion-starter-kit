@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { domain } from 'lib/config'
 import { resolveNotionPage } from 'lib/resolve-notion-page'
-import { NotionPage } from 'components'
 import PageLayout  from 'components/PageLayout'
 import DirectiveSplash from 'components/DirectiveSplash'
 
@@ -19,7 +18,7 @@ export const getStaticProps = async () => {
   }
 }
 
-export default function NotionDomainPage(props) {
+export default function NotionDomainPage() {
   return <body>
     <PageLayout noGutter>
       <DirectiveSplash />

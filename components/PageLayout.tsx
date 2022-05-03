@@ -1,4 +1,4 @@
-import { FunctionComponent, ReactNode } from 'react';
+import React, { FunctionComponent, ReactNode } from 'react';
 import Navbar from './Navbar';
 import styles from '../styles/PageLayout.module.scss';
 
